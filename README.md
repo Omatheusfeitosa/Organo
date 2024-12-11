@@ -1,7 +1,3 @@
-Here's a README.md for your "Organo" project:
-
----
-
 # Organo
 
 Organo is a web application designed to create and manage organizational charts (organograms). It allows users to categorize employees into different teams, mark favorite members, and modify team colors. Users can add new teams, employees, and delete or modify existing ones.
@@ -67,7 +63,3 @@ This will run the application on [http://localhost:3000](http://localhost:3000).
 ## Contribution
 
 Feel free to fork the repository and submit pull requests. If you have any issues or suggestions, please open an issue in the repository.
-
----
-
-This README provides a clear overview of your project and guides users on how to set it up and use it. Let me know if you need further adjustments!
