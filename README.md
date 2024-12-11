@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+Here's a README.md for your "Organo" project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Organo
 
-In the project directory, you can run:
+Organo is a web application designed to create and manage organizational charts (organograms). It allows users to categorize employees into different teams, mark favorite members, and modify team colors. Users can add new teams, employees, and delete or modify existing ones.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Create Teams**: You can create new teams for your organization and assign specific colors to each team.
+- **Add Employees**: Employees can be added to teams with their respective roles and images.
+- **Favorite Employees**: Mark employees as favorites to easily highlight key members of the organization.
+- **Customize Teams**: Change the color of teams to match your organization's branding.
+- **Delete Employees**: Remove employees from the organization if needed.
+  
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Front-end framework for building the user interface.
+- **UUID**: Used to generate unique IDs for each team and employee.
+- **useState**: React hook to manage state for teams and employees.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/organo.git
+   ```
 
-### `npm run build`
+2. Install dependencies:
+   ```bash
+   cd organo
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the application:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This will run the application on [http://localhost:3000](http://localhost:3000).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+1. **Create a new Team**:
+   - Enter the team name and color in the form and click "Create Team."
+   
+2. **Add Employees**:
+   - Select a team from the list, provide employee details (name, role, image), and click "Add Employee."
+   
+3. **Modify Team Color**:
+   - Click on a team to change its color.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Favorite Employees**:
+   - Click the heart icon next to an employee's name to mark them as a favorite.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Delete Employees**:
+   - Click the trash can icon next to an employee to remove them.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Components
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Banner**: Displays the header of the application.
+- **Formulario**: Form for adding new employees and teams.
+- **Rodape**: Footer of the application.
+- **Time**: Represents a team, with its employees and options to modify or delete them.
 
-## Learn More
+## Contribution
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to fork the repository and submit pull requests. If you have any issues or suggestions, please open an issue in the repository.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This README provides a clear overview of your project and guides users on how to set it up and use it. Let me know if you need further adjustments!
